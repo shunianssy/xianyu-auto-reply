@@ -318,7 +318,7 @@ class XianyuLive:
                 'accountSite': 'xianyu',
                 'dataType': 'json',
                 'timeout': '20000',
-                'api': 'mtop.taobao.idlemessage.pc.login.token',
+                'api': 'mtop.taobao.idle.user.token.get',
                 'sessionOption': 'AutoLoginOnly',
                 'spm_cnt': 'a21ybx.im.0.0',
             }

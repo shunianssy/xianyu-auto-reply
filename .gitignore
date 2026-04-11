@@ -1,107 +1,50 @@
-__pycache__
-*node_modules/*
+```gitignore
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.py[cod]
+*$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
+*.egg-info/
 .eggs/
-# Python lib directories (but not static/lib)
-lib/
-!static/lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-MANIFEST
-*.manifest
-*.spec
-.cache
-*.log
-local_settings.py
+.mypy_cache/
+.pytest_cache/
+.tox/
+.hypothesis/
 
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-db.sqlite3
-__pypackages__/
-.venv
-
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Temporary files
-*.tmp
-*.temp
-temp/
-tmp/
+# Build directories
+build/
+dist/
+*.egg
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Local environment files
-.env.local
-.env.*.local
-
-# ==================== 项目特定文件 ====================
-# 日志文件
-logs/
-realtime.log
-
-# 数据目录
-data/
-backups/
-
-# Excel测试文件
-keywords_*.xlsx
-*.xls
-
-# 图片缓存
-*.png.cache
-*.jpg.cache
-
-# 上传的文件（保留目录结构，忽略文件内容）
-static/uploads/*
-!static/uploads/.gitkeep
-!static/uploads/images/
-static/uploads/images/*
-!static/uploads/images/.gitkeep
-
-# 配置文件（包含敏感信息）
-config.local.yml
-global_config.local.yml
-
-# 测试文件
-test_*.py
-*_test.py
-keywords_sample.xlsx
-
-# 备份文件
-*.bak
-*.backup
-*.old
-
-# 压缩文件
-*.zip
-*.tar.gz
-*.rar
-*.7z
+```

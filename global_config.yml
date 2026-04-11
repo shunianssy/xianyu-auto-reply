@@ -1,7 +1,7 @@
 API_ENDPOINTS:
   login_check: https://passport.goofish.com/newlogin/hasLogin.do
   message_headinfo: https://h5api.m.goofish.com/h5/mtop.idle.trade.pc.message.headinfo/1.0/
-  token: https://h5api.m.goofish.com/h5/mtop.taobao.idlemessage.pc.login.token/1.0/
+  token: https://h5api.m.goofish.com/h5/mtop.taobao.idle.user.token.get/1.0/
 APP_CONFIG:
   api_version: '1.0'
   app_key: 444e9908a51d1cb236a27862abc769c9
